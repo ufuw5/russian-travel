@@ -1,0 +1,21 @@
+.cover__overlay {
+  width: 100%;
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
+  display: grid;
+  grid-auto-rows: max-content;
+  justify-items: center;
+  align-content: center;
+  row-gap: 32px;
+  background-color: rgba(42, 44, 47, 0.3);
+}
+
+.cover__overlay:hover {
+  background-color: rgba(42, 44, 47, 0.8);
+}
+
+@media screen and (max-width: 525px) {
+  .cover__overlay {
+    row-gap: 16px;
+  }
+}
