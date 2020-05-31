@@ -1,4 +1,6 @@
 .content {
+  max-width: 1280px;
+  margin: 0 auto;
   display: grid;
   row-gap: 92px;
   padding: 56px 0 92px;

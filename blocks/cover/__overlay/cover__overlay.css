@@ -8,6 +8,9 @@
   align-content: center;
   row-gap: 32px;
   background-color: rgba(42, 44, 47, 0.3);
+  text-decoration: none;
+  color: #fff;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .cover__overlay:hover {

@@ -6,9 +6,8 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  color: #fff;
-  text-decoration: none;
   align-self: end;
+  margin: 0;
 }
 
 @media screen and (max-width: 525px) {
